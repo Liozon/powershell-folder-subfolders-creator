@@ -1,0 +1,1 @@
+ start powershell -command "& '.\Create folders.ps1'"
