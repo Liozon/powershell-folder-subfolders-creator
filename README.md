@@ -1,5 +1,7 @@
 # PowerShell folders and subfolders creator
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Liozon/powershell-folders-and-subfolders-creator?color=success&display_name=tag&label=Latest%20version&logo=GitHub)
+
 - [PowerShell folders and subfolders creator](#powershell-folders-and-subfolders-creator)
   - [About](#about)
   - [For whom this script is intended ?](#for-whom-this-script-is-intended-)
@@ -47,7 +49,28 @@ And the following words:
 - `COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9`
 - `LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, LPT9`
 
-The CSV file contains random folders name if you want to test the script first.
+The CSV file contains random folders name if you want to test the script, with the following structure:
+
+```markdown
+1. Legal
+  a. Order of the Council of State
+2. Project management
+  a. Project plan
+  b. Description
+  c. Project objectives
+  d. Legal aspects
+  e. Planning
+  f. Test sets
+  g. Success indicators
+3. Communication
+4. Budget
+5. Premises - Infrastructure
+  a. IT network
+  b. Computers
+  c. Operating system
+  d. Call center
+  e. Telephony
+```
 
 ### 2: Run the script
 
