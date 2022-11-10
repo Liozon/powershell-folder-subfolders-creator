@@ -6,8 +6,9 @@
   - [About](#about)
   - [For whom this script is intended ?](#for-whom-this-script-is-intended-)
   - [How to use](#how-to-use)
-    - [1: Define your folders and subfolders name](#1-define-your-folders-and-subfolders-name)
-    - [2: Run the script](#2-run-the-script)
+    - [1: Download the latest version](#1-download-the-latest-version)
+    - [2: Define your folders and subfolders name](#2-define-your-folders-and-subfolders-name)
+    - [3: Run the script](#3-run-the-script)
 
 ## About
 
@@ -21,7 +22,11 @@ This script allows the quick creation of the same folder structures, useful, for
 
 ## How to use
 
-### 1: Define your folders and subfolders name
+### 1: Download the latest version
+
+You can download the latest version on the [releases page](https://github.com/Liozon/powershell-folders-and-subfolders-creator/releases "Releases page")
+
+### 2: Define your folders and subfolders name
 
 Simply edit the `FolderNames.csv` file. You'll find two columns:
 
@@ -72,7 +77,7 @@ The CSV file contains random folders name if you want to test the script, with t
   e. Telephony
 ```
 
-### 2: Run the script
+### 3: Run the script
 
 To run the script, simply double-clic on `Run script.bat`. The BAT file will start PowerShell and the script.
 You'll be prompted to confirm the folders creation, no folders will be created before you confirm the script:
