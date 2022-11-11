@@ -9,6 +9,9 @@
     - [1: Download the latest version](#1-download-the-latest-version)
     - [2: Define your folders and subfolders name](#2-define-your-folders-and-subfolders-name)
     - [3: Run the script](#3-run-the-script)
+  - [Release notes](#release-notes)
+    - [v1.1](#v11)
+    - [v1.0](#v10)
 
 ## About
 
@@ -82,3 +85,15 @@ The CSV file contains random folders name if you want to test the script, with t
 To run the script, simply double-clic on `Run script.bat`. The BAT file will start PowerShell and the script.
 You'll be prompted to confirm the folders creation, no folders will be created before you confirm the script:
 ![Prompt](./Images/Confirm%20prompt.jpg "Prompt")
+
+## Release notes
+
+### v1.1
+
+- Added the script version in the console output
+
+### v1.0
+
+- Initial release
+- Import and read the CSV file for the structure to be built
+- User prompt before creating folders and subfolders
